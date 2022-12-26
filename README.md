@@ -26,8 +26,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - CSS
 
 ## 💻 Projeto
-
-O Rocket.Q é uma aplicação de uma página de um site de uma loja de óculos para apresentar seus produtos, aqui você pode ver modelos e preços, descobrir mais sobre a loja na seção sobre e pode contatá-los com os dados disponíveis na seção contatos.
+Ótica Vida é uma aplicação de uma página de um site de uma loja de óculos para apresentar seus produtos, aqui você pode ver modelos e preços, descobrir mais sobre a loja na seção sobre e pode contatá-los com os dados disponíveis na seção contatos.
 
 ## ❓ Criação
 
