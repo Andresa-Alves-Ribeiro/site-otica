@@ -1,6 +1,7 @@
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-criação">Criação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-licença">Licença</a>
 </p>
 
@@ -13,42 +14,35 @@
 <br>
 
 <p align="center">
-  ![otica (1)](https://user-images.githubusercontent.com/94997593/209574704-ef533c21-14df-4e48-8072-13e42b66c42a.gif)
+  <img alt="Otica Vida" src="otica.gif" width="100%">
 </p>
 
 ## 🚀 Tecnologias
 
-Esse projeto foi desenvolvido com a seguinte tecnologia:
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
+- Javascript
 - React.JS
+- CSS
 
 ## 💻 Projeto
 
-O Rocket.Q é uma aplicação de um site-loja de uma ótica.
+O Rocket.Q é uma aplicação de uma página de um site de uma loja de óculos para apresentar seus produtos, aqui você pode ver modelos e preços, descobrir mais sobre a loja na seção sobre e pode contatá-los com os dados disponíveis na seção contatos.
 
-## ❓ Como funciona a aplicação?
+## ❓ Criação
 
-+ A aplicação funciona da seguinte forma. Assim que o usuário entra, ele é mandado diretamente para a rota de "home", onde ele terá duas opções de caminhos.
++ Foram utilizados os conceitos de criação, importação e exportação de um componente.
 
-+ Ou ele tem um código de sala, copia e cola ele na parte de 'entrar em uma sala', ou ele pode criar a sala de maneira bastante simples, em uma página diferente.
+Ao criar esse projeto, será colocado em prática os seguintes conceitos:
 
-+ Os códigos das salas são gerados aleatoriamente por meio de um algoritmo, ao passo que a senha da sala é escolhida pelo usuário ao realizar a criação dela.
-
-+ Uma sala, assim que é criada, não possui nenhuma pergunta, portanto, é colocado, no template do EJS, uma interface de 'sem nenhuma pergunta'. Quando uma pergunta é adicionada, a interface é trocada dinamicamente pela pergunta e as perguntas subsequentes.
-
-+ Quando o botão de 'marcar como lida' é acionado, o programa pede para o usuário digitar a senha da sala, impedindo que qualquer um tenha acesso ás mudanças nas perguntas.
-
-+ Se o usuário escrever a senha corretamente, então a pergunta ficará com um tema acinzentado e será enviada para as últimas posições do queue de perguntas.
-
-+ O processo de exluir é semelhante ao de marcar como lida. Contudo, ao excluir uma pergunta, ele irá, de fato, retirá-la do banco de dados e ela sumirá da interface da aplicação.
-
-+ Quando todas as perguntas são removidas, a interface de 'sem nenhuma pergunta' volta a aparecer, até que uma pergunta seja escrita.
+Criar, importar e exportar componentes;
+Organizar o código o dividindo em partes menores e arquivos isolados.
 
 ## 🖥️ Como visualizar meu projeto?
 
 Você pode acessar o link abaixo e visualizar o deploy:
 
-https://rocketq-app.herokuapp.com/
+http://site-otica-brown.vercel.app/
 
 ou
 
