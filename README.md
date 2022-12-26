@@ -1,70 +1,72 @@
-# Getting Started with Create React App
+<p align="center">
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-licença">Licença</a>
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+ <img src="https://img.shields.io/static/v1?label=PRs&message=welcome&color=49AA26&labelColor=000000" alt="PRs welcome!" />
 
-## Available Scripts
+  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
+</p>
 
-In the project directory, you can run:
+<br>
 
-### `npm start`
+<p align="center">
+  <img alt="Rocket.Q" src="github/capa.png" width="100%">
+  <img alt="Rocket.Q" src="github/site.gif" width="70%">
+</p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🚀 Tecnologias
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-### `npm test`
+- HTML
+- CSS
+- JavaScript
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 💻 Projeto
 
-### `npm run build`
+O Rocket.Q é uma aplicação de interação através de perguntas, sendo possível criar uma sala para internautas anônimos fazerem perguntas e o criador da sala em posse de uma senha gerenciar essas perguntas e marcar como lidas.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## ❓ Como funciona a aplicação?
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
++ A aplicação funciona da seguinte forma. Assim que o usuário entra, ele é mandado diretamente para a rota de "home", onde ele terá duas opções de caminhos.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
++ Ou ele tem um código de sala, copia e cola ele na parte de 'entrar em uma sala', ou ele pode criar a sala de maneira bastante simples, em uma página diferente.
 
-### `npm run eject`
++ Os códigos das salas são gerados aleatoriamente por meio de um algoritmo, ao passo que a senha da sala é escolhida pelo usuário ao realizar a criação dela.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
++ Uma sala, assim que é criada, não possui nenhuma pergunta, portanto, é colocado, no template do EJS, uma interface de 'sem nenhuma pergunta'. Quando uma pergunta é adicionada, a interface é trocada dinamicamente pela pergunta e as perguntas subsequentes.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
++ Quando o botão de 'marcar como lida' é acionado, o programa pede para o usuário digitar a senha da sala, impedindo que qualquer um tenha acesso ás mudanças nas perguntas.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
++ Se o usuário escrever a senha corretamente, então a pergunta ficará com um tema acinzentado e será enviada para as últimas posições do queue de perguntas.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
++ O processo de exluir é semelhante ao de marcar como lida. Contudo, ao excluir uma pergunta, ele irá, de fato, retirá-la do banco de dados e ela sumirá da interface da aplicação.
 
-## Learn More
++ Quando todas as perguntas são removidas, a interface de 'sem nenhuma pergunta' volta a aparecer, até que uma pergunta seja escrita.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🖥️ Como visualizar meu projeto?
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Você pode acessar o link abaixo e visualizar o deploy:
 
-### Code Splitting
+https://rocketq-app.herokuapp.com/
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+ou
 
-### Analyzing the Bundle Size
+Baixe este repositório e com seu terminal, entre no diretório
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+1. Execute o comando `npm install` para instalar as dependências
+2. Após, execute o comando `npm run init-db` para instalar o banco de dados
+3. E para iniciar o aplicativo, execute o comando `npm start` 
 
-### Making a Progressive Web App
+## :memo: Licença
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](.github/LICENSE.md) para mais detalhes.
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<p align="center">
+  Feito com ♥ by Andresa A Ribeiro :wave:
+</p>
