@@ -23,6 +23,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - Javascript
 - React.JS
+- HTML
 - CSS
 
 ## 💻 Projeto
@@ -30,12 +31,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## ❓ Criação
 
-+ Foram utilizados os conceitos de criação, importação e exportação de um componente.
-
-Ao criar esse projeto, será colocado em prática os seguintes conceitos:
-
-Criar, importar e exportar componentes;
-Organizar o código o dividindo em partes menores e arquivos isolados.
++ Foram utilizados os conceitos de criação, importação e exportação de um componente. E por consequencia organizar o código o dividindo em partes menores e arquivos isolados.
 
 ## 🖥️ Como visualizar meu projeto?
 
