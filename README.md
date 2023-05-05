@@ -1,5 +1,5 @@
 <h1 align="center"> 
-	 Ótica Vida
+	Ótica Vida
 </h1>
 
 <p align="center">
@@ -46,10 +46,10 @@ d.  Mobile (375px)
 &nbsp;
 
 <p align="center">
-  <a href="https://github.com/Andresa-Alves-Ribeiro/Recriando-Netflix/issues"><img src="https://img.shields.io/github/issues/Andresa-Alves-Ribeiro/Recriando-Netflix" alt="issue app" /></a>
-  <a href="https://github.com/Andresa-Alves-Ribeiro/Recriando-Netflix"><img src="https://img.shields.io/github/languages/count/Andresa-Alves-Ribeiro/Recriando-Netflix" alt="total amount of programming languages used in the project" /></a>
-  <a href="https://github.com/Andresa-Alves-Ribeiro/Recriando-Netflix"><img src="https://img.shields.io/github/languages/top/Andresa-Alves-Ribeiro/Recriando-Netflix" alt="most used language in the projects" /></a>
-  <a href="https://github.com/Andresa-Alves-Ribeiro/Recriando-Netflix"><img src="https://img.shields.io/github/repo-size/Andresa-Alves-Ribeiro/Recriando-Netflix" alt="repository size" /></a>
+  <a href="https://github.com/Andresa-Alves-Ribeiro/site-otica/issues"><img src="https://img.shields.io/github/issues/Andresa-Alves-Ribeiro/site-otica" alt="issue app" /></a>
+  <a href="https://github.com/Andresa-Alves-Ribeiro/site-otica"><img src="https://img.shields.io/github/languages/count/Andresa-Alves-Ribeiro/site-otica" alt="total amount of programming languages used in the project" /></a>
+  <a href="https://github.com/Andresa-Alves-Ribeiro/site-otica"><img src="https://img.shields.io/github/languages/top/Andresa-Alves-Ribeiro/site-otica" alt="most used language in the projects" /></a>
+  <a href="https://github.com/Andresa-Alves-Ribeiro/site-otica"><img src="https://img.shields.io/github/repo-size/Andresa-Alves-Ribeiro/site-otica" alt="repository size" /></a>
 <p>
 
 ---
@@ -61,7 +61,7 @@ d.  Mobile (375px)
 
 | :placard: Vitrine.Dev |                                                                                                                                                    |
 | --------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
-| :sparkles: Nome       | **Recriando Netfilx** |
+| :sparkles: Nome       | **Ótica Vida** |
 | :label: Tecnologias   | HTML, CSS, JAVASCRIPT, REACT |
 
 ---
